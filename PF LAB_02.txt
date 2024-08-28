@@ -1,0 +1,78 @@
+2.PSEUDOCODE:
+Q. Take three variables as input and add them without using the + operator.
+					“TASK2”
+I.	START
+II.	//Input Output
+III.	Input num1. 
+IV.	Input num2.
+V.	Input num3
+VI.	// Variables and Initialization
+VII.	Set result to 0
+VIII.	//Loop Structure
+IX.	For (i=0, i<=num1, i++) Then
+X.	Print result += 1; 
+XI.	//Loop Structure
+XII.	For (i=0, i<=num2, i++) Then
+XIII.	Print result += 1;
+XIV.	//Loop Structure
+XV.	For (i=0, i<=num3, i++) Then
+XVI.	Print result += 1;
+XVII.	Print “The sum of all three numbers is result”.
+XVIII.	END
+
+
+Q. Create a small calculator which only does ‘+’ or ‘-‘Operations. (Hint: Take three variable inputs with one being used for the operator)
+							“TASK3”
+I.	START
+II.	//Input Output
+III.	Input num1. 
+IV.	Input num2.
+V.	Input operator (+ or -)
+VI.	// Variables and Initialization
+VII.	Set result to 0
+VIII.	//Conditional Statements
+IX.	If operator == + Then
+X.	Print result = num1+num2
+XI.	Else If operator == - Then
+XII.	Print result = num1-num2
+XIII.	Else
+XIV.	Print “Invalid operator”
+XV.	END
+
+
+
+3.Algorithm:
+Q.  Implement an algorithm for determining if an Nth is a divisor of an n Number (i.e. 2 is a divisor of 6). If so, determine if it’s an even number or odd number as well. 
+						“TASK1”
+I.	Ask the user to enter Nth value (the divisor).
+II.	Ask the user to enter n value (the number to be divided).
+III.	Check if the n % Nth == 0, then
+IV.	Print Nth is a divisor of n.
+V.	Else, Print Nth is not a divisor of n.
+VI.	Check if the n % 2== 0, then
+VII.	Print Nth is an even number.
+VIII.	Else, Print Nth is a odd number.
+
+
+
+Q. Implement an algorithm for making a simple calculator with all the operators (+, -, *, /,) 
+						“TASK3”
+I.	Ask the user to enter num1 value.
+II.	Ask the user to enter num2 value.
+III.	Ask the user to enter an operator among (+, -, *, /, %).
+IV.	Check, if an operator is +, then 
+V.	Set the result to (num1 + num2).
+VI.	Display result.
+VII.	Else if an operator is -, then 
+VIII.	Set the result to (num1 – num).
+IX.	Display result.
+X.	Else if an operator is *, then 
+XI.	Set the result to (num1 * num).
+XII.	Display result.
+XIII.	Else if an operator is /, then 
+XIV.	Set the result to (num1 / num).
+XV.	Display result.
+XVI.	Else if an operator is %, then 
+XVII.	Set the result to (num1 % num).
+XVIII.	Display result.
+XIX.	Else, Display “invalid operator”.

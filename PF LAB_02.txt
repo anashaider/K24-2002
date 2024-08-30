@@ -8,18 +8,9 @@ IV.	Input num2.
 V.	Input num3
 VI.	// Variables and Initialization
 VII.	Set result to 0
-VIII.	//Loop Structure
-IX.	For (i=0, i<=num1, i++) Then
-X.	Print result += 1; 
-XI.	//Loop Structure
-XII.	For (i=0, i<=num2, i++) Then
-XIII.	Print result += 1;
-XIV.	//Loop Structure
-XV.	For (i=0, i<=num3, i++) Then
-XVI.	Print result += 1;
-XVII.	Print “The sum of all three numbers is result”.
-XVIII.	END
-
+VIII.	result = num1-(-num2)-(-num3);
+IX.	Print “The sum of all three numbers is result”.
+X.	END
 
 Q. Create a small calculator which only does ‘+’ or ‘-‘Operations. (Hint: Take three variable inputs with one being used for the operator)
 							“TASK3”
